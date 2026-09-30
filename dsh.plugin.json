@@ -1,0 +1,32 @@
+{
+  "id": "gongyijie85/dsh-super-injector",
+  "version": "0.3.4",
+  "main": "./lib/index.js",
+  "description": "超级模组注入器：运行时注入任意本地 DSH 插件包（junction 链接 + loader.create，不碰 patch/package.json/不重启），热重载全家桶 + 开发侧挂区一键转正 + 一键卸载 + 路由自愈 + 插件管理 UI（设置页：列表/卸载/拖入内化），清单持久化重启自动恢复——DSH 生态的 BepInEx 式模组注入入口",
+  "engines": {
+    "dsh": ">=0.1.0-rc.6"
+  },
+  "contributes": {
+    "tools": [
+      "dev_inject_plugin",
+      "dev_injected_list",
+      "dev_uninject_plugin",
+      "dev_install_package",
+      "dev_reload_package",
+      "dev_build_plugin",
+      "dev_scaffold_plugin",
+      "dev_release_plugin",
+      "dev_plugin_status",
+      "dev_self_test",
+      "dev_clear_routes",
+      "dev_heal_links",
+      "dev_fix_patch",
+      "dev_stage_add",
+      "dev_stage_call",
+      "dev_stage_list",
+      "dev_stage_promote",
+      "dev_stage_demote"
+    ],
+    "skills": []
+  }
+}

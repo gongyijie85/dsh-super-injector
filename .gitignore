@@ -1,0 +1,8 @@
+# 依赖与构建产物（本包为 private 本地插件，junction 装配；不进 VCS）
+node_modules/
+# 备份与残留（*.bak-dsh015-* / *.bak-p1batch2-* / *.bak-p2hard-* 等一律忽略）
+*.bak*
+# npm pack / publish 产物
+*.tgz
+# 打包残留（files 白名单含 lib 时会被打进 tarball）
+*.tmpdir/
